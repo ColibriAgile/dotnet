@@ -1,0 +1,18 @@
+{
+  "arquivos": [
+    {
+      "_pattern_nome": ".*dotnetcore*\\.exe\\b",
+      "destino": "shared",
+      "params_client": "/SP- /SILENT /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART",
+      "params_serv": "/SP- /SILENT /VERYSILENT /SUPPRESSMSGBOXES /NOCANCEL /NORESTART"
+    }
+  ],
+  "nome": "DotnetCore",
+  "nome_exibicao": ".NET",
+  "produto": "universal",
+  "versao": "5.0.0.0",
+  "sistema": true,
+  "download_obrigatorio": true,
+  "empresa": "Colibri",
+  "sigla_empresa": "ncr"
+}
