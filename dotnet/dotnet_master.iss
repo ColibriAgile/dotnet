@@ -1,6 +1,6 @@
 #ifndef AppVersion
-  #define AppVersion "9.0.3"
-  #define FileVersion "9.0.3"
+  #define AppVersion "9.0.4"
+  #define FileVersion "9.0.4"
   #define Year "2025"
 #endif
 
@@ -31,8 +31,8 @@ VersionInfoVersion={#FileVersion}
 
 [Files]
 ; Na instalacao para o master precisamos do runtime do .NET para rodar somente o Ncr.Umgt e somente em 64 bits
-Source: "windowsdesktop-runtime-8.0.14-win-x86.exe"; DestDir: "{tmp}"; DestName: "windesk-runtime-8-x86.exe"; Flags: deleteafterinstall
-Source: "windowsdesktop-runtime-9.0.3-win-x86.exe"; DestDir: "{tmp}"; DestName: "windesk-runtime-9-x86.exe"; Flags: deleteafterinstall
+Source: "windowsdesktop-runtime-8.0.15-win-x86.exe"; DestDir: "{tmp}"; DestName: "windesk-runtime-8-x86.exe"; Flags: deleteafterinstall
+Source: "windowsdesktop-runtime-9.0.4-win-x86.exe"; DestDir: "{tmp}"; DestName: "windesk-runtime-9-x86.exe"; Flags: deleteafterinstall
 
 [Code]
 procedure CurStepChanged(CurStep: TSetupStep);

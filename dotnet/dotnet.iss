@@ -1,6 +1,6 @@
 #ifndef AppVersion
-  #define AppVersion "9.0.3"
-  #define FileVersion "9.0.3"
+  #define AppVersion "9.0.4"
+  #define FileVersion "9.0.4"
   #define Year "2025"
 #endif
 
@@ -31,15 +31,15 @@ VersionInfoVersion={#FileVersion}
 
 [Files]
 ;.net 8
-Source: "aspnetcore-runtime-8.0.14-win-x86.exe"; DestDir: "{tmp}"; DestName: "asp-runtime-8-x86.exe"; Flags: deleteafterinstall 
-Source: "aspnetcore-runtime-8.0.14-win-x64.exe"; DestDir: "{tmp}"; DestName: "asp-runtime-8-x64.exe"; Flags: deleteafterinstall 
-Source: "windowsdesktop-runtime-8.0.14-win-x86.exe"; DestDir: "{tmp}"; DestName: "windesk-runtime-8-x86.exe"; Flags: deleteafterinstall
-Source: "windowsdesktop-runtime-8.0.14-win-x64.exe"; DestDir: "{tmp}"; DestName: "windesk-runtime-8-x64.exe"; Flags: deleteafterinstall
+Source: "aspnetcore-runtime-8.0.15-win-x86.exe"; DestDir: "{tmp}"; DestName: "asp-runtime-8-x86.exe"; Flags: deleteafterinstall 
+Source: "aspnetcore-runtime-8.0.15-win-x64.exe"; DestDir: "{tmp}"; DestName: "asp-runtime-8-x64.exe"; Flags: deleteafterinstall 
+Source: "windowsdesktop-runtime-8.0.15-win-x86.exe"; DestDir: "{tmp}"; DestName: "windesk-runtime-8-x86.exe"; Flags: deleteafterinstall
+Source: "windowsdesktop-runtime-8.0.15-win-x64.exe"; DestDir: "{tmp}"; DestName: "windesk-runtime-8-x64.exe"; Flags: deleteafterinstall
 ;.net 9
-Source: "aspnetcore-runtime-9.0.3-win-x86.exe"; DestDir: "{tmp}"; DestName: "asp-runtime-9-x86.exe"; Flags: deleteafterinstall 
-Source: "aspnetcore-runtime-9.0.3-win-x64.exe"; DestDir: "{tmp}"; DestName: "asp-runtime-9-x64.exe"; Flags: deleteafterinstall 
-Source: "windowsdesktop-runtime-9.0.3-win-x86.exe"; DestDir: "{tmp}"; DestName: "windesk-runtime-9-x86.exe"; Flags: deleteafterinstall
-Source: "windowsdesktop-runtime-9.0.3-win-x64.exe"; DestDir: "{tmp}"; DestName: "windesk-runtime-9-x64.exe"; Flags: deleteafterinstall
+Source: "aspnetcore-runtime-9.0.4-win-x86.exe"; DestDir: "{tmp}"; DestName: "asp-runtime-9-x86.exe"; Flags: deleteafterinstall 
+Source: "aspnetcore-runtime-9.0.4-win-x64.exe"; DestDir: "{tmp}"; DestName: "asp-runtime-9-x64.exe"; Flags: deleteafterinstall 
+Source: "windowsdesktop-runtime-9.0.4-win-x86.exe"; DestDir: "{tmp}"; DestName: "windesk-runtime-9-x86.exe"; Flags: deleteafterinstall
+Source: "windowsdesktop-runtime-9.0.4-win-x64.exe"; DestDir: "{tmp}"; DestName: "windesk-runtime-9-x64.exe"; Flags: deleteafterinstall
 
 [Code]
 procedure CurStepChanged(CurStep: TSetupStep);
